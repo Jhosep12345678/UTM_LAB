@@ -30,10 +30,12 @@ Ante esta necesidad, el proyecto propone el **diseño, construcción y validaci�
 ## 3.1 Equipo y funciones
 
 ### Dante A. Olivas Huaman — Software y Plataforma Web
+<img width="383" height="385" alt="Captura de pantalla 2026-10-10 174004" src="https://github.com/user-attachments/assets/517e716a-ff18-42a9-9790-07db12ab48b6" />
+
 - Arquitectura Next.js y despliegue en Vercel.
 - Web Serial API y adquisición serial en navegador.
 - Autenticación de operadores con Supabase.
-- Integración del agente Gemini.
+- Integración del agente.
 - Cálculo de esfuerzo–deformación en tiempo real.
 - Exportación local PDF/CSV.
 - Integración software–firmware.
@@ -53,7 +55,7 @@ Ante esta necesidad, el proyecto propone el **diseño, construcción y validaci�
 
 ---
 
-## 3.2 Estado actual del proyecto — 10 de octubre de 2026
+## 3.2 Estado actual del proyecto 
 
 - **Inicio del proyecto:** 14 de septiembre de 2026.
 - **Avance en software:** plataforma web en Next.js con Web Serial, Recharts, Supabase Auth, Gemini y exportación local PDF/CSV.
@@ -66,79 +68,66 @@ Ante esta necesidad, el proyecto propone el **diseño, construcción y validaci�
 
 ## 3.3 Planificación semanal propuesta — 14 sep al 29 nov 2026
 
-> **Leyenda:** Completado ·  En curso · ⏳ Pendiente
 
 ### Semana 1 — 14 al 20 de septiembre de 2026
 - **Dante:** Configuración del repositorio, arquitectura Next.js, Supabase Auth y vistas iniciales.
 - **Jhosep:** Selección de celda de 10 kg, HX711 y Arduino; pruebas de lectura.
 - **Juan:** Bocetos CAD, dimensiones, selección de guías y mordazas.
-- **Hito/estado:**  Kickoff y BOM preliminar.
-
+  
 ### Semana 2 — 21 al 27 de septiembre de 2026
 - **Dante:** Web Serial API, parser serial, Recharts y maqueta UI.
 - **Jhosep:** Firmware base: lectura ADC, motor paso a paso y finales de carrera.
 - **Juan:** CAD 3D preliminar, soporte de motor y guías.
-- **Hito/estado:**  Primer prototipo software/firmware.
 
 ### Semana 3 — 28 de septiembre al 4 de octubre de 2026
 - **Dante:** Auth Supabase, perfiles, exportación CSV/PDF y Gemini.
 - **Jhosep:** Protocolo Serial v1 con CRC-16, seguridad y control de velocidad.
 - **Juan:** CAD de mordazas, tolerancias y planos de fabricación.
-- **Hito/estado:**  Protocolo y CAD intermedio.
 
 ### Semana 4 — 5 al 11 de octubre de 2026
 - **Dante:** Integración Web Serial + gráfica en vivo; despliegue en Vercel.
 - **Jhosep:** Calibración inicial con masas patrón; repetibilidad.
 - **Juan:** Revisión CAD, impresión 3D y prototipado de mordazas.
-- **Hito/estado:**  Avance actual: software y CAD funcional.
 
 ### Semana 5 — 12 al 18 de octubre de 2026
 - **Dante:** Pruebas de conexión real Arduino–navegador; corrección de errores.
 - **Jhosep:** Acondicionamiento final, calibración fina y pruebas de carga.
 - **Juan:** Fabricación/ajuste de piezas y ensamblaje parcial.
-- **Hito/estado:**  Sistema mínimo integrado.
 
 ### Semana 6 — 19 al 25 de octubre de 2026
 - **Dante:** Curva σ-ε en vivo, ingreso de geometría y reporte PDF.
 - **Jhosep:** Firmware final: límites de carrera, paro de emergencia y control de motor.
 - **Juan:** Ensamblaje de estructura, alineación de guías y mordazas.
-- **Hito/estado:**  Firmware y UI listos para integración.
 
 ### Semana 7 — 26 de octubre al 1 de noviembre de 2026
 - **Dante:** Integración completa software–firmware; registro de sesión y pruebas.
 - **Jhosep:** Calibración documentada; incertidumbre y trazabilidad.
 - **Juan:** Montaje final, pruebas de rigidez y alineación.
-- **Hito/estado:**  Máquina ensamblada y calibrada.
 
 ### Semana 8 — 2 al 8 de noviembre de 2026
 - **Dante:** Ajustes de UI, exportación PDF/CSV y validación de datos.
 - **Jhosep:** Pruebas con probetas poliméricas; repetibilidad.
 - **Juan:** Ajustes mecánicos, cambio de mordazas y seguridad.
-- **Hito/estado:**  Primeros ensayos de tracción.
 
 ### Semana 9 — 9 al 15 de noviembre de 2026
 - **Dante:** Post-ensayo: E, σy, UTS y εr; reportes.
 - **Jhosep:** Ensayos comparativos, análisis de ruido y calibración final.
 - **Juan:** Ensayos de fatiga mecánica y mantenimiento.
-- **Hito/estado:**  Curvas experimentales completas.
 
 ### Semana 10 — 16 al 22 de noviembre de 2026
 - **Dante:** Documentación, manual de usuario y preparación de demo.
 - **Jhosep:** Validación metrológica e informe de instrumentación.
 - **Juan:** Planos finales y manual de montaje.
-- **Hito/estado:**  Validación técnica y documentación.
 
 ### Semana 11 — 23 al 29 de noviembre de 2026
 - **Dante:** Presentación final, despliegue definitivo y demo en vivo.
 - **Jhosep:** Demo de calibración y ensayos en vivo.
 - **Juan:** Demo mecánica y mantenimiento.
-- **Hito/estado:**  Cierre y entrega final.
 
 ### Semana 12* — 30 de noviembre al 6 de diciembre de 2026
-- **Dante:** Correcciones menores e informe final.
+- **Dante:** Correcciones e informe final.
 - **Jhosep:** Ajustes finales de calibración.
-- **Juan:** Ajustes mecánicos menores.
-- **Hito/estado:** *Semana de holgura opcional.*
+- **Juan:** Ajustes mecánicos.
 
 > **Nota:** El cronograma está sujeto a ajustes por disponibilidad de laboratorio, impresión 3D, tiempos de calibración y ensayos experimentales.
 ---
