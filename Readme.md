@@ -31,8 +31,7 @@ Ante esta necesidad, el proyecto propone el **diseño, construcción y validaci�
 
 | Integrante | Rol / Especialidad | Responsabilidades Principales |
 | :--- | :--- | :--- |
-| **Dante A. Olivas Huaman**<img width="383" height="385" alt="Captura de pantalla 2026-10-10 174004" src="https://github.com/user-attachments/assets/2f03ca36-3cfc-4642-9a10-22d0f4acb470" />
-| **Software y Plataforma Web** | Desarrollo de la arquitectura de software, adquisición de datos, conectarlos a la web, autenticación y perfiles en Supabase, agente de IA con Google Gemini, exportación local PDF/CSV y despliegue en Vercel. |
+| **Dante A. Olivas Huaman** <img width="383" height="385" alt="Captura de pantalla 2026-10-10 174004" src="https://github.com/user-attachments/assets/2f03ca36-3cfc-4642-9a10-22d0f4acb470" /> | **Software y Plataforma Web** | Desarrollo de la arquitectura de software, adquisición de datos, conectarlos a la web, autenticación y perfiles en Supabase, agente de IA con Google Gemini, exportación local PDF/CSV y despliegue en Vercel. |
 | **Jhosep A. Tineo Santa Cruz** | **Instrumentación y Sensores** | Acondicionamiento de señal para celda de carga de 10 kg, etapa de amplificación/digitalización, integración con Arduino, calibración metrológica y evaluación de estabilidad. |
 | **Juan Jesus Agüero Ventura** | **Estructura Mecánica** | Modelado CAD 3D de la máquina, diseño y fabricación de pinzas de sujeción (mordazas), cálculo de tolerancias, soporte de guías y rigidez estructural. |
 | **------RETIRADO------** | **Potencia y Accionamiento** | Selección del motor paso a paso NEMA 17, driver de potencia, dimensionamiento eléctrico, fuente de alimentación y control de velocidad/torque del actuador. |
