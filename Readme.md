@@ -58,7 +58,7 @@ Ante esta necesidad, el proyecto propone el **diseño, construcción y validaci�
 ## 3.2 Estado actual del proyecto 
 
 - **Inicio del proyecto:** 14 de septiembre de 2026.
-- **Avance en software:** plataforma web en Next.js con Web Serial, Recharts, Supabase Auth, Gemini y exportación local PDF/CSV.
+- **Avance en software:** plataforma web en Next.js con Web Serial, Recharts, Supabase Auth y exportación local PDF/CSV.
 - **Avance en firmware:** protocolo Serial v1 con CRC-16, control de motor y bloqueos de seguridad.
 - **Avance en mecánica:** diseño CAD preliminar/intermedio, mordazas y soportes en revisión.
 - **Pendiente:** calibración experimental con masas patrón, fabricación definitiva de piezas CAD y ensayos de tracción con probetas poliméricas.
