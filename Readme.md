@@ -2,30 +2,6 @@
 
 > Sistema de instrumentación, adquisición de datos en tiempo real y caracterización mecánica de materiales (hasta 100 N) desarrollado con microcontrolador Arduino, celda de carga de 10 kg, accionamiento NEMA 17 y plataforma web moderna en Next.js / Supabase / Google Gemini / Vercel.
 
----
-
-## 0. Estructura del Repositorio
-
-```text
-UTM - Proyecto de Instrumentación/
-├── Proyecto/                          ← Documentos del proyecto académico
-├── Resources/
-│   └── Software/                      ← Código fuente de la plataforma web (Next.js)
-│       ├── firmware/                  ← Firmware para Arduino Uno / Nano
-│       ├── src/                       ← Código fuente de la aplicación web
-│       ├── supabase/                  ← Migraciones de base de datos
-│       ├── docs/                      ← Documentación complementaria
-│       ├── package.json
-│       ├── next.config.ts
-│       └── ...
-└── README.md                          ← Este archivo
-```
-
-> [!IMPORTANT]
-> Todo el código fuente de la plataforma web se encuentra en **`Resources/Software/`**. Las instrucciones de instalación, ejecución y despliegue operan desde esa carpeta.
-
----
-
 ## 1. Introducción y Contexto
 
 La **ciencia de materiales** estudia las propiedades mecánicas, físicas y químicas de los materiales para comprender su comportamiento bajo cargas externas y fundamentar aplicaciones tecnológicas. Entre las propiedades de mayor interés se encuentran la resistencia a la tracción, la deformación elástica/plástica y el módulo de Young.
