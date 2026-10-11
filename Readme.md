@@ -30,7 +30,7 @@ Ante esta necesidad, el proyecto propone el **diseño, construcción y validaci�
 ## 3.1 Equipo y funciones
 
 ### Dante A. Olivas Huaman — Software y Plataforma Web
-<img width="38.3" height="38.5" alt="Captura de pantalla 2026-10-10 174004" src="https://github.com/user-attachments/assets/517e716a-ff18-42a9-9790-07db12ab48b6" />
+<img width="191.5" height="192.5" alt="Captura de pantalla 2026-10-10 174004" src="https://github.com/user-attachments/assets/517e716a-ff18-42a9-9790-07db12ab48b6" />
 
 - Arquitectura Next.js y despliegue en Vercel.
 - Web Serial API y adquisición serial en navegador.
