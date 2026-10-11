@@ -50,8 +50,13 @@ Entrar al siguiente link para visualizar el PDF
 
 -------
 
-
+## Matriz Morfológica 
 ![Matriz Morfológica](https://github.com/Jhosep12345678/UTM_LAB/blob/main/Resources/Imagenes/Matriz_morfologica.png)
+
+## Matriz Pugh
+
+![Matriz de Pugh](https://github.com/Jhosep12345678/UTM_LAB/blob/main/Resources/Imagenes/Matriz_de_Pugh.png)
+
 
 
 
