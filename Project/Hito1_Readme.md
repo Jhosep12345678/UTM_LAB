@@ -50,6 +50,18 @@ Entrar al siguiente link para visualizar el PDF
 
 -------
 
+## Caja negra
+![Caja negra](https://github.com/Jhosep12345678/UTM_LAB/blob/main/Resources/Imagenes/Caja%20negra.png)
+
+## Caja Blanca
+![Caja blanca](https://github.com/Jhosep12345678/UTM_LAB/blob/main/Resources/Imagenes/Caja%20blanca.png)
+
+
+## Estructura de funciones / Arquitectura del proyecto
+![Arquitectura del proyecto](https://github.com/Jhosep12345678/UTM_LAB/blob/main/Resources/Imagenes/Diagrama%20de%20Arquitectura.png)
+
+
+
 ## Matriz Morfológica 
 ![Matriz Morfológica](https://github.com/Jhosep12345678/UTM_LAB/blob/main/Resources/Imagenes/Matriz_morfologica.png)
 
