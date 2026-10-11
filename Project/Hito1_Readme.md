@@ -51,3 +51,7 @@ Entrar al siguiente link para visualizar el PDF
 -------
 
 
+![Matriz Morfológica](Resources/Imagenes/Matriz_morfologica.png)
+
+
+
