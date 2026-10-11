@@ -44,7 +44,7 @@
 
 Entrar al siguiente link para visualizar el PDF
 
-------------->   **[Plan de trabajo](https://github.com/Jhosep12345678/UTM_LAB/blob/main/Project/Plan_de_trabajo.pdf)**   <-------------------
+------------->   ![Plan de trabajo](https://github.com/Jhosep12345678/UTM_LAB/blob/main/Project/Plan_de_trabajo.pdf)   <-------------------
 
 
 
