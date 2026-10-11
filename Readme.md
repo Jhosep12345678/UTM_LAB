@@ -1,14 +1,19 @@
 # UTM Lab — Máquina Universal de Ensayos de Fuerza de Bajo Costo
 
-> Sistema de instrumentación, adquisición de datos en tiempo real y caracterización mecánica de materiales (hasta 100 N) desarrollado con microcontrolador Arduino, celda de carga de 10 kg, accionamiento NEMA 17 y plataforma web moderna en Next.js / Supabase / Google Gemini / Vercel.
+> Sistema de instrumentación, adquisición de datos en tiempo real y caracterización mecánica de materiales (hasta 100 N) desarrollado con microcontrolador Arduino, celda de carga de 10 kg, accionamiento NEMA 17 y plataforma web moderna.
 
-## 1. Introducción y Contexto
 
-La **ciencia de materiales** estudia las propiedades mecánicas, físicas y químicas de los materiales para comprender su comportamiento bajo cargas externas y fundamentar aplicaciones tecnológicas. Entre las propiedades de mayor interés se encuentran la resistencia a la tracción, la deformación elástica/plástica y el módulo de Young.
+## 1. Planteamiento del problema
 
-Las **máquinas universales de ensayos (UTM)** industriales convencionales son equipos voluminosos, de costo elevado (miles de dólares) y con características excesivas para laboratorios de docencia o caracterización de probetas poliméricas a pequeña escala.
+La ciencia e ingeniería de materiales requieren la caracterización experimental de las propiedades mecánicas para comprender el comportamiento de los materiales sometidos a cargas externas y evaluar su potencial en distintas aplicaciones tecnológicas. Entre las propiedades de interés se encuentran la resistencia a la tracción, el módulo de Young, el límite elástico y la deformación hasta la rotura. Para la determinación de estas propiedades se requieren equipos de ensayo y procedimientos de medición adecuados.
 
-Ante esta necesidad, el proyecto propone el **diseño, construcción y validación de una máquina universal de ensayos de fuerza de bajo costo y dimensiones reducidas**, integrando componentes comerciales accesibles, acondicionamiento de señales de precisión, microcontrolador local y una aplicación web moderna para adquisición serial directa en el navegador, graficado en vivo y exportación local trazable sin costos de almacenamiento cloud.
+Las máquinas universales de ensayos (Universal Testing Machines, UTM) permiten realizar pruebas mecánicas controladas; sin embargo, los equipos comerciales pueden representar una barrera económica y logística para actividades de docencia, experimentación y desarrollo de prototipos. En determinados entornos académicos, el acceso a estos equipos también puede estar condicionado por la disponibilidad del laboratorio, la programación de ensayos y las condiciones de uso.
+
+En la Universidad Nacional de Ingeniería (UNI), por ejemplo, se dispone de infraestructura para realizar ensayos de tracción de materiales. No obstante, el acceso a estos equipos puede estar sujeto a las condiciones de uso del laboratorio. Asimismo, se identifica la necesidad de contar con un equipo compacto y de menor costo que permita realizar ensayos de tracción en muestras pequeñas de polímeros, especialmente cuando se requiere desarrollar pruebas preliminares, validar prototipos o efectuar experimentos de manera más rápida y accesible.
+
+### Solución propuesta
+
+Ante esta necesidad, el proyecto propone diseñar, construir y validar una máquina de ensayos de tracción de bajo costo y dimensiones reducidas, con una capacidad máxima de fuerza de 100 N, orientada a la caracterización mecánica de muestras pequeñas de polímeros. El sistema integrará componentes mecánicos y electrónicos comerciales, un sistema de medición de fuerza y desplazamiento, circuitos de acondicionamiento de señales, un microcontrolador para la adquisición de datos y una aplicación web para visualizar, registrar y procesar los resultados experimentales en tiempo real.
 
 ---
 
@@ -29,91 +34,25 @@ Ante esta necesidad, el proyecto propone el **diseño, construcción y validaci�
 
 ## 3.1 Equipo y funciones
 
-### Dante A. Olivas Huaman — Software y Plataforma Web
-<img width="191.5" height="192.5" alt="Captura de pantalla 2026-10-10 174004" src="https://github.com/user-attachments/assets/517e716a-ff18-42a9-9790-07db12ab48b6" />
-
-- Arquitectura Next.js y despliegue en Vercel.
-- Web Serial API y adquisición serial en navegador.
-- Autenticación de operadores con Supabase.
-- Integración del agente.
-- Cálculo de esfuerzo–deformación en tiempo real.
-- Exportación local PDF/CSV.
-- Integración software–firmware.
-
-### Jhosep A. Tineo Santa Cruz — Instrumentación y Control
-- Celda de carga de 10 kg y módulo HX711/ADC.
-- Calibración metrológica y evaluación de estabilidad.
-- Firmware Arduino y protocolo Serial v1 con CRC-16.
-- Driver NEMA 17, fuente de alimentación y control de motor.
-- Seguridad, finales de carrera y paro de emergencia.
-
-### Juan Jesus Agüero Ventura — Estructura Mecánica
-- Modelado CAD 3D de la máquina.
-- Diseño y fabricación de mordazas de sujeción.
-- Guías lineales, soportes y tolerancias.
-- Ensamblaje, rigidez estructural y pruebas mecánicas.
+| **Foto** | **Nombre** | **Rol** | **Funciones** |
+| -------- | ---------- | ----- | ------------ |
+| <img src="https://github.com/user-attachments/assets/517e716a-ff18-42a9-9790-07db12ab48b6" width="100"> | **Dante A. Olivas Huaman** | Software y Plataforma Web | - Arquitectura Next.js y despliegue en Vercel.<br>- Web Serial API y adquisición serial en navegador.<br>- Autenticación de operadores con Supabase.<br>- Integración del agente.<br>- Cálculo de esfuerzo–deformación en tiempo real.<br>- Exportación local a PDF/CSV.<br>- Integración software–firmware. |
+| — | **Jhosep A. Tineo Santa Cruz** | Instrumentación y Control | - Celda de carga de 10 kg y módulo HX711/ADC.<br>- Calibración metrológica y evaluación de estabilidad.<br>- Firmware Arduino y protocolo Serial v1 con CRC-16.<br>- Driver NEMA 17, fuente de alimentación y control del motor.<br>- Seguridad, finales de carrera y paro de emergencia. |
+| — | **Juan Jesus Agüero Ventura** | Estructura Mecánica | - Modelado CAD 3D de la máquina.<br>- Diseño y fabricación de mordazas de sujeción.<br>- Guías lineales, soportes y tolerancias.<br>- Ensamblaje, rigidez estructural y pruebas mecánicas. |
 
 ---
 
 
 
-## 4. Arquitectura del Sistema
 
-El sistema opera bajo un modelo desacoplado: **el firmware local garantiza la seguridad física y la temporización crítica**, mientras que **el navegador web visualiza, procesa y genera los reportes**.
 
-<p align="center">
-  <img src="Resources/Software/Imagenes/grafico_flujo.png" alt="Diagrama de flujo del sistema" width="620">
-</p>
 
-```text
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                                 CAPA DE CONTROL LOCAL                                  │
-│                                                                                        │
-│   [ Celda de Carga 10 kg ] ──> [ ADC / Acondicionamiento ]                             │
-│                                           │                                            │
-│   [ Finales de carrera / Paro ] ────────> [ Microcontrolador Arduino ]                 │
-│                                           │ (Uno / Nano - ATmega328P)                  │
-│   [ Driver de potencia ] <────────────────┘                                            │
-│            │                                                                           │
-│   [ Motor NEMA 17 + Tornillo ] ──> [ Desplazamiento mecánico ]                         │
-└───────────────────────────────────────────┬────────────────────────────────────────────┘
-                                            │ Cable USB (Protocolo Serial v1 con CRC-16)
-                                            ▼
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                              CAPA DE SOFTWARE (UTM LAB)                                │
-│                                                                                        │
-│   Navegador del Operador (Chrome / Edge)                                               │
-│   ├── Web Serial API (Lectura bidireccional local, detección de saltos de seq)         │
-│   ├── Motor de cálculo en vivo (Esfuerzo en MPa, Deformación de ingeniería)            │
-│   ├── Interfaz gráfica React 19 / Recharts (Curva sin datos sintéticos)                │
-│   └── Asistente de Operación flotante (Chat contextual con Google Gemini)              │
-│                                                                                        │
-│   Servicios en la Nube                                                                 │
-│   ├── Vercel (Alojamiento Edge/Serverless con HTTPS obligatorio)                       │
-│   ├── Supabase Auth (Acceso seguro por correo y contraseña de operadores)              │
-│   └── Google Gemini API (Respuestas contextualizadas mediante Gemini)        │
-│                                                                                        │
-│   * Cero Consumo de Almacenamiento Cloud: Todos los datos de ensayos (curvas,          │
-│     muestras completas y reportes PDF/CSV) se generan en el navegador del operador     │
-│     y se descargan directamente a su equipo local.                                     │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-```
 
- 
- 
 
-- [x] Definición conceptual y parámetros de diseño (límite 100 N).
-- [x] Distribución de responsabilidades entre los cuatro integrantes.
-- [x] Adquisición de componentes clave (Arduino, celda 10 kg, motor NEMA 17, driver).
-- [x] Desarrollo de la plataforma web en Next.js con soporte Web Serial, Recharts y Google Gemini.
-- [x] Autenticación de operadores en Supabase con RLS y exportación local de reportes PDF/CSV (cero consumo cloud).
-- [x] Implementación completa del firmware en Arduino con protocolo Serial v1, CRC-16/CCITT y bloqueos de seguridad ([`firmware/utm_controller/utm_controller.ino`](Resources/Software/firmware/utm_controller/utm_controller.ino)).
-- [x] Validación de compilación y preparación para despliegue en Vercel.
-- [ ] Calibración experimental con masas patrón de la celda de carga de 10 kg.
-- [ ] Fabricación de piezas CAD definitivas (mordazas y soportes de guías).
-- [ ] Ensayos de tracción con probetas poliméricas (PLA, PETG, ABS) y trazado experimental de curvas.
 
----
+
+
+
 
 ## 11. Documentación Complementaria
 
