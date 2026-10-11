@@ -2,7 +2,6 @@
 
 ## 1. Información general del proyecto
 
-| Campo | Descripción |
 |---|---|
 | **Nombre del proyecto** | Máquina Universal de Ensayo de Tracción de Bajo Coste |
 | **Cliente objetivo** | Laboratorio de materiales independiente |
