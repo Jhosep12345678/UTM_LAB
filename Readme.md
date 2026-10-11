@@ -4,7 +4,7 @@
 
 ### Carrera de Ingeniería Física - Universidad Nacional de Ingeniería
 
-## 1. Planteamiento del problema
+## Planteamiento del problema
 
 La ciencia e ingeniería de materiales requieren la caracterización experimental de las propiedades mecánicas para comprender el comportamiento de los materiales sometidos a cargas externas y evaluar su potencial en distintas aplicaciones tecnológicas. Entre las propiedades de interés se encuentran la resistencia a la tracción, el módulo de Young, el límite elástico y la deformación hasta la rotura. Para la determinación de estas propiedades se requieren equipos de ensayo y procedimientos de medición adecuados.
 
@@ -18,7 +18,20 @@ Ante esta necesidad, el proyecto propone diseñar, construir y validar una máqu
 
 ---
 
-## 2. Objetivos
+---  
+
+## Equipo y funciones
+
+| **Foto** | **Nombre** | **Rol** | **Funciones** |
+| -------- | ---------- | ----- | ------------ |
+| <img src="https://github.com/user-attachments/assets/517e716a-ff18-42a9-9790-07db12ab48b6" width="100"> | **Dante A. Olivas Huaman** | Software y Plataforma Web | - Arquitectura Next.js y despliegue en Vercel.<br>- Web Serial API y adquisición serial en navegador.<br>- Autenticación de operadores con Supabase.<br>- Integración del agente.<br>- Cálculo de esfuerzo–deformación en tiempo real.<br>- Exportación local a PDF/CSV.<br>- Integración software–firmware. |
+| — | **Jhosep A. Tineo Santa Cruz** | Instrumentación y Control | - Celda de carga de 10 kg y módulo HX711/ADC.<br>- Calibración metrológica y evaluación de estabilidad.<br>- Firmware Arduino y protocolo Serial v1 con CRC-16.<br>- Driver NEMA 17, fuente de alimentación y control del motor.<br>- Seguridad, finales de carrera y paro de emergencia. |
+| — | **Juan Jesus Agüero Ventura** | Estructura Mecánica | - Modelado CAD 3D de la máquina.<br>- Diseño y fabricación de mordazas de sujeción.<br>- Guías lineales, soportes y tolerancias.<br>- Ensamblaje, rigidez estructural y pruebas mecánicas. |
+
+---
+
+
+## Objetivos
 
 ### Objetivo Principal
 **Diseñar, construir y validar un prototipo de máquina universal de ensayos de fuerza de bajo costo**, capaz de aplicar una fuerza controlada (con límite de seguridad de 100 N) y registrar la respuesta mecánica de probetas poliméricas.
@@ -30,20 +43,6 @@ Ante esta necesidad, el proyecto propone diseñar, construir y validar una máqu
 * **Plataforma de software:** Desarrollar una interfaz web (UTM Lab) con Web Serial API, visualización en tiempo real y asistencia inteligente mediante Google Gemini.
 * **Curvas esfuerzo–deformación:** Calcular en tiempo real $\sigma$ (esfuerzo) y $\varepsilon$ (deformación) a partir de los datos geométricos de la probeta y las lecturas calibradas.
 * **Evaluación experimental:** Evaluar la resolución, repetibilidad y respuesta del prototipo con diferentes muestras poliméricas comerciales e impresas en 3D.
-
----  
-
-## 3.1 Equipo y funciones
-
-| **Foto** | **Nombre** | **Rol** | **Funciones** |
-| -------- | ---------- | ----- | ------------ |
-| <img src="https://github.com/user-attachments/assets/517e716a-ff18-42a9-9790-07db12ab48b6" width="100"> | **Dante A. Olivas Huaman** | Software y Plataforma Web | - Arquitectura Next.js y despliegue en Vercel.<br>- Web Serial API y adquisición serial en navegador.<br>- Autenticación de operadores con Supabase.<br>- Integración del agente.<br>- Cálculo de esfuerzo–deformación en tiempo real.<br>- Exportación local a PDF/CSV.<br>- Integración software–firmware. |
-| — | **Jhosep A. Tineo Santa Cruz** | Instrumentación y Control | - Celda de carga de 10 kg y módulo HX711/ADC.<br>- Calibración metrológica y evaluación de estabilidad.<br>- Firmware Arduino y protocolo Serial v1 con CRC-16.<br>- Driver NEMA 17, fuente de alimentación y control del motor.<br>- Seguridad, finales de carrera y paro de emergencia. |
-| — | **Juan Jesus Agüero Ventura** | Estructura Mecánica | - Modelado CAD 3D de la máquina.<br>- Diseño y fabricación de mordazas de sujeción.<br>- Guías lineales, soportes y tolerancias.<br>- Ensamblaje, rigidez estructural y pruebas mecánicas. |
-
----
-
-
 
 
 
