@@ -57,6 +57,5 @@ Entrar al siguiente link para visualizar el PDF
 
 ![Matriz de Pugh](https://github.com/Jhosep12345678/UTM_LAB/blob/main/Resources/Imagenes/Matriz_de_Pugh.png)
 
-
-
+Con base en este análisis, queda el Concepto de solución 2 como la opción ideal porque combina una estructura metálica rígida en el marco de carga —evitando las deformaciones elásticas de la madera o el acrílico que alterarían las lecturas de tracción— con la potencia de un ESP32 (32 bits / 240 MHz), capaz de capturar datos de la celda de carga y controlar el motor en tiempo real. Además, logra un balance óptimo de costo-beneficio al transmitir los datos a una PC para su procesamiento y graficación, eliminando el gasto de incorporar una Raspberry Pi, pantallas dedicadas o componentes industriales no indispensables.
 
