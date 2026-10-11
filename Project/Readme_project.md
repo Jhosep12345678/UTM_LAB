@@ -1,7 +1,10 @@
 # Máquina Universal de Ensayo de Tracción de Bajo Coste
 
-## 1. Información general del proyecto
+## Información general del proyecto
 
+
+
+| - | - |
 |---|---|
 | **Nombre del proyecto** | Máquina Universal de Ensayo de Tracción de Bajo Coste |
 | **Cliente objetivo** | Laboratorio de materiales independiente |
@@ -12,9 +15,8 @@
 | **Presupuesto máximo de fabricación** | S/ 300, sujeto a cotizaciones y disponibilidad de componentes |
 | **Valor estimado del trabajo de ingeniería** | S/ 5 000, considerando el tiempo invertido y los conocimientos aportados por los integrantes |
 
-## 2. Especificaciones técnicas y requisitos de diseño
 
-## 2. Especificaciones técnicas y requisitos de diseño
+## Especificaciones técnicas y requisitos de diseño
 
 | Categoría | Requisito | Criterio de cumplimiento |
 |---|---|---|
