@@ -44,7 +44,7 @@
 
 Entrar al siguiente link para visualizar el PDF
 
-------------->   **[Ir al repositorio de Software]([https://github.com/LordPercival241/maquina-de-ensayos-esfuerzo-deformacion](https://github.com/Jhosep12345678/UTM_LAB/blob/main/Project/Plan_de_trabajo.pdf))**   <-------------------
+------------->   **[Ir al repositorio de Software](https://github.com/Jhosep12345678/UTM_LAB/blob/main/Project/Plan_de_trabajo.pdf)**   <-------------------
 
 
 
