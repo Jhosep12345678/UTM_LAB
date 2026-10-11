@@ -51,7 +51,7 @@ Entrar al siguiente link para visualizar el PDF
 -------
 
 
-![Matriz Morfológica](Resources/Imagenes/Matriz_morfologica.png)
+![Matriz Morfológica](https://github.com/Jhosep12345678/UTM_LAB/blob/main/Resources/Imagenes/Matriz_morfologica.png)
 
 
 
