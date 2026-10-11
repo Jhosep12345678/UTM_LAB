@@ -2,7 +2,7 @@
 
 > Sistema de instrumentación, adquisición de datos en tiempo real y caracterización mecánica de materiales (hasta 100 N) desarrollado con microcontrolador Arduino, celda de carga de 10 kg, accionamiento NEMA 17 y plataforma web moderna.
 
-##Carrera de Ingeniería Física - Universidad Nacional de Ingeniería
+### Carrera de Ingeniería Física - Universidad Nacional de Ingeniería
 
 ## 1. Planteamiento del problema
 
