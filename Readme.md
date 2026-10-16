@@ -26,7 +26,7 @@ Ante esta necesidad, el proyecto propone diseñar, construir y validar una máqu
 | -------- | ---------- | ----- | ------------ |
 | <img src="https://github.com/user-attachments/assets/517e716a-ff18-42a9-9790-07db12ab48b6" width="100"> | **Dante A. Olivas Huaman** | Software y Plataforma Web | - Arquitectura Next.js y despliegue en Vercel.<br>- Web Serial API y adquisición serial en navegador.<br>- Autenticación de operadores con Supabase.<br>- Integración del agente.<br>- Cálculo de esfuerzo–deformación en tiempo real.<br>- Exportación local a PDF/CSV.<br>- Integración software–firmware. |
 | <img src="https://github.com/Jhosep12345678/UTM_LAB/blob/main/Resources/Imagenes/Fotos%20Integrantes/foto1.jpg" width="100"> | **Jhosep A. Tineo Santa Cruz** | Instrumentación y Control | - Celda de carga de 10 kg y módulo HX711/ADC.<br>- Calibración metrológica y evaluación de estabilidad.<br>- Firmware Arduino y protocolo Serial v1 con CRC-16.<br>- Driver NEMA 17, fuente de alimentación y control del motor.<br>- Seguridad, finales de carrera y paro de emergencia. |
-| — | **Juan Jesus Agüero Ventura** | Estructura Mecánica | - Modelado CAD 3D de la máquina.<br>- Diseño y fabricación de mordazas de sujeción.<br>- Guías lineales, soportes y tolerancias.<br>- Ensamblaje, rigidez estructural y pruebas mecánicas. |
+| <img src="https://github.com/Jhosep12345678/UTM_LAB/blob/main/Resources/Imagenes/Fotos%20Integrantes/fotoj.jpg" width="100"> | **Juan Jesus Agüero Ventura** | Estructura Mecánica | - Modelado CAD 3D de la máquina.<br>- Diseño y fabricación de mordazas de sujeción.<br>- Guías lineales, soportes y tolerancias.<br>- Ensamblaje, rigidez estructural y pruebas mecánicas. |
 
 ---
 
