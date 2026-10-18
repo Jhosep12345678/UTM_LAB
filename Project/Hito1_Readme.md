@@ -20,7 +20,7 @@
 
 | Categoría | Requisito | Criterio de cumplimiento | Responsable |
 |---|---|---|---|
-| **Funcionalidad** | Diseñar y construir una máquina universal de ensayo de tracción de bajo coste para caracterizar materiales poliméricos. | Aplicar una fuerza de tracción controlada de hasta 100 N y registrar los datos del ensayo. | JUAN |
+| **Funcionalidad** | Diseñar y construir una máquina universal de ensayo de tracción de bajo coste para caracterizar materiales poliméricos. | Aplicar una fuerza de tracción controlada de hasta 100 N y registrar los datos del ensayo. | TODOS |
 | **Geometría** | Las dimensiones máximas del conjunto ensamblado, incluidos los componentes electrónicos, serán de 45 cm de longitud, 8 cm de ancho y 12 cm de altura. | Verificar las dimensiones exteriores de la máquina ensamblada. | JUAN |
 | **Cinemática** | El movimiento de las partes móviles deberá ser suave, estable y libre de obstáculos que provoquen atascamientos o vibraciones excesivas. | Comprobar el desplazamiento del mecanismo a lo largo de su recorrido de trabajo. | JUAN |
 | **Sistema mecánico** | La estructura deberá mantener la alineación del sistema móvil y de las mordazas durante el ensayo. | Verificar la estabilidad estructural y reducir las cargas laterales sobre la muestra y la celda de carga. | JUAN |
