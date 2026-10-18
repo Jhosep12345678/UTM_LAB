@@ -16,7 +16,7 @@
 | **Valor estimado del trabajo de ingeniería** | S/ 5 000, considerando el tiempo invertido y los conocimientos aportados por los integrantes |
 
 
-## Especificaciones técnicas y requisitos de diseño
+## Lista de Exigencias / requisitos de diseño
 
 | Categoría | Requisito | Criterio de cumplimiento | Responsable |
 |---|---|---|---|
