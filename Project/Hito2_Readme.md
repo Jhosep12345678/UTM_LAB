@@ -1,5 +1,6 @@
 # DIMENSIONAMIENTO
  
+# Tablas de especificaciones establecidas para el prototipo
 
 | Subsistema | Componente | Especificación | Función |
 |:---|:---|:---|:---|
