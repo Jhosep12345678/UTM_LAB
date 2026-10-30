@@ -1,5 +1,6 @@
+===========================
 DIMENSIONAMIENTO
-
+===========================
 
 | Subsistema | Componente | Especificación | Función |
 |:---|:---|:---|:---|
