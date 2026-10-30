@@ -1,4 +1,4 @@
-DIMENSIONAMIENTO
+# DIMENSIONAMIENTO
  
 
 | Subsistema | Componente | Especificación | Función |
