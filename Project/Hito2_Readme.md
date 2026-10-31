@@ -114,6 +114,9 @@ ______   ________________   _____________   _______________
 | **Porcentaje utilizado por el prototipo (teórico)** | **45,4 %** | | | |
 
 
+El **45,4 %** usando es de los **60 W** de la alimentación
+
+
 Link de planos / mecanica
 
  ---------->> **[Link_Planos](https://github.com/Jhosep12345678/UTM_LAB/blob/main/Resources/Mec%C3%A1nica/DIMENSIONAMIENTO%20DE%20LAS%20PIEZAS%20CON%20SUS%20RESPECTIVAS%20VISTAS.pdf)**
