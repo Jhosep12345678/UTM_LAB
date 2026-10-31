@@ -1,6 +1,6 @@
 # Codigo de calibración de la celda de carga en ESP32
 
-
+```
 #include "HX711.h"
 
 // Pines del HX711
@@ -164,5 +164,5 @@ void loop() {
   delay(200);
 }
 
-
+```
 
