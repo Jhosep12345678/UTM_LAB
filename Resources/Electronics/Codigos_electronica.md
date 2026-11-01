@@ -166,3 +166,53 @@ void loop() {
 
 ```
 
+
+
+
+# Codigo del testeo del motor Nema 17
+
+
+
+```
+
+#include <AccelStepper.h>
+
+#define STEP_PIN 18
+#define DIR_PIN 19
+
+AccelStepper stepper(AccelStepper::DRIVER, STEP_PIN, DIR_PIN);
+
+const long pasosPorVuelta = 200;
+unsigned long tiempoEspera;
+bool esperando = false;
+
+void setup() {
+  stepper.setMaxSpeed(1000);
+  stepper.setAcceleration(200);
+
+  stepper.setCurrentPosition(0);
+  stepper.moveTo(200);
+}
+
+void loop() {
+
+  if (esperando) {
+
+    if (millis() - tiempoEspera >= 1000) {
+      esperando = false;
+      stepper.moveTo(stepper.currentPosition() + pasosPorVuelta);
+    }
+
+  } else {
+
+    stepper.run();
+
+    if (stepper.distanceToGo() == 0) {
+      esperando = true;
+      tiempoEspera = millis();
+    }
+  }
+}
+
+
+```
